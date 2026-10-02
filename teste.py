@@ -7,27 +7,27 @@ clientes = [
     {"nome":"Felipe", "cel":"117468", "empresa":"Microsoft"}
 ]
 
-# pergunta = input("Escolha a empresa: ").upper()
+pergunta = input("Escolha a empresa: ").upper()
 
-# for cliente in clientes:
-#     if cliente["empresa"] == pergunta:
-#         print(cliente)
+for cliente in clientes:
+    if cliente["empresa"] == pergunta:
+        print(cliente)
 
 # #cadastrar um novo cliente
 
-# print ("---> Cadastrando um novo Cliente <---")
-# nome = input("Digite o nome do cliente: ")
-# celular = input("Digite o numero de celular do cliente: ")
-# empresa = input("Digite a empresa do cliente: ")
+print ("---> Cadastrando um novo Cliente <---")
+nome = input("Digite o nome do cliente: ")
+celular = input("Digite o numero de celular do cliente: ")
+empresa = input("Digite a empresa do cliente: ")
 
-# novo_cliente = {
-#     "nome": nome,
-#     "cel": celular,
-#     "empresa": empresa
-# }
+novo_cliente = {
+    "nome": nome,
+    "cel": celular,
+    "empresa": empresa
+}
 
-# clientes.append(novo_cliente)
-# print(clientes)
+clientes.append(novo_cliente)
+print(clientes)
 
 #Remover um cliente
 
